@@ -4,7 +4,7 @@
 * O Deployment "quake" especifica que uma réplica do servidor Quake será implantada.
 * Define dois containers: um para o servidor Quake e outro para o servidor de conteúdo, onde ambos utilizam a mesma imagem.
 * O readiness probe é configurado para verificar a disponibildiade do servidor Quake a cada 5 segundos após um atraso inicial de 15 segundos.
-* E por fim, os volumes "quake3-server-config" e "quake3-content" são montados para acessar suas respectivas configurações e dados de conteúdo.
+* Por fim, os volumes "quake3-server-config" e "quake3-content" são montados para acessar suas respectivas configurações e dados de conteúdo.
 
 ## 2. Serviço:
 * Ele expõe o servidor Quake por meio de um NodePort para permitir acesso externo.
