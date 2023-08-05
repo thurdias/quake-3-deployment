@@ -88,7 +88,7 @@ data:
       quadFactor: 3
       weaponRespawn: 3
     server:
-      hostname: "arthurquake"
+      hostname: "arthur's quake"
       maxClients: 12
       password: "quake"
     commands:
