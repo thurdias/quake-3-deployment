@@ -7,8 +7,7 @@
 * E por fim, os volumes "quake3-server-config" e "quake3-content" são montados para acessar suas respectivas configurações e dados de conteúdo.
 
 ## 2. Serviço:
-* Ele expõe o servidor Quake em um NodePort para permitir acesso externo.
-![image](https://github.com/thurdias/quake-3-deployment/assets/6502142/e555b6fc-27a3-4698-a911-fdd1d7778d94)
+* Ele expõe o servidor Quake por meio de um NodePort para permitir acesso externo.
 * O Serviço "quake" encaminha o tráfego para três portas diferentes nos pods: 8080 para o cliente, 27960 para o servidor e 9090 para o servidor de conteúdo.
 
 ## 3. ConfigMap: 
