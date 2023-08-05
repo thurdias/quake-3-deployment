@@ -7,7 +7,7 @@
 * O container do servidor Quake executa o comando "q3 server" com alguns argumentos adicionais.
 * O container do servidor de conteúdo executa o comando "q3 content" com uma URL de conteúdo de referência (seed content).
 * Ambos os containers utilizam a mesma imagem "quay.io/sebastienblanc0/quake:latest".
-* Uma sonda de prontidão (readiness probe) é configurada para verificar a saúde do servidor Quake a cada 5 segundos após um atraso inicial de 15 segundos.
+* O readiness probe é configurado para verificar a saúde do servidor Quake a cada 5 segundos após um atraso inicial de 15 segundos.
 * Os containers montam os volumes "quake3-server-config" e "quake3-content" para acessar suas respectivas configurações e dados de conteúdo.
 
 # 2. Serviço:
