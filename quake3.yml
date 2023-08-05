@@ -84,16 +84,16 @@ data:
     bot:
       minPlayers: 3
     game:
-      motd: "Welcome to Critical Stack"
+      motd: "Bem vindo ao Quake do Arthur"
       type: FreeForAll
       forceRespawn: false
       inactivity: 10m
       quadFactor: 3
       weaponRespawn: 3
     server:
-      hostname: "quakekube"
+      hostname: "arthurquake"
       maxClients: 12
-      password: "changeme"
+      password: "quake"
     commands:
       - addbot sarge 2
     maps:
