@@ -1,7 +1,7 @@
 # Deployment do Quake III em OpenShift
 
-# 1. Implantação:
-* A Implantação é definida com o nome "quake".
+# 1. Deployment:
+* A Deployment é definida com o nome "quake".
 * Especifica que uma réplica do servidor Quake será implantada.
 * O modelo de pod define dois containers: um para o servidor Quake e outro para o servidor de conteúdo.
 * O container do servidor Quake executa o comando "q3 server" com alguns argumentos adicionais.
