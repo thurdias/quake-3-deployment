@@ -14,4 +14,4 @@
 * O ConfigMap "quake3-server-config" contém a configuração do servidor Quake, como as configurações do jogo, nome do servidor, senha e mapas.
 
 ## 4. Rota:
-* A rota "quake" é direcionada para o Serviço com o nome "quake", segmentando a porta "client", tornando possível acessar a aplicação por meio de um URL.
+* A rota "quake" é direcionada para o Serviço com o nome "quake", segmentando a porta "client", dessa forma, torna-se possível acessar a aplicação por meio de um URL.
